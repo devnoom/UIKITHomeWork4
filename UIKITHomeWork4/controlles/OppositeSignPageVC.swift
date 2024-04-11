@@ -15,7 +15,7 @@ class OppositeSignPageVC: UIViewController {
     let oppositePageStack: UIStackView = {
         let oppositePageStack = UIStackView()
         oppositePageStack.translatesAutoresizingMaskIntoConstraints = false
-        oppositePageStack.backgroundColor = .blue
+        //oppositePageStack.backgroundColor = .blue
         return oppositePageStack
     }()
     

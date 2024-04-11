@@ -24,7 +24,7 @@ class DescriptionPageVC: UIViewController {
     let descriptionPageStack: UIStackView = {
         let descriptionPageStack = UIStackView()
         descriptionPageStack.translatesAutoresizingMaskIntoConstraints = false
-        descriptionPageStack.backgroundColor = .blue
+        //descriptionPageStack.backgroundColor = .blue
         return descriptionPageStack
     }()
     
@@ -76,7 +76,7 @@ class DescriptionPageVC: UIViewController {
                                     description: "აღწერა",
                                     image: UIImage(named: "taurus")!,
                                     polarName: "მორიელი",
-                                    polarImage: UIImage(named: "Scorpio")!)
+                                    polarImage: UIImage(named: "scorpio")!)
             
         case "ტყუპები":
             zodiacSign = ZodiacSign(name: "ტყუპები",
@@ -95,13 +95,13 @@ class DescriptionPageVC: UIViewController {
                                     description: "აღწერა",
                                     image: UIImage(named: "leo")!,
                                     polarName: "მერწყული",
-                                    polarImage: UIImage(named: "Aquarius")!)
+                                    polarImage: UIImage(named: "aquarius")!)
         case "ქალწული":
             zodiacSign = ZodiacSign(name: "ქალწული",
                                     description: "აღწერა",
                                     image: UIImage(named: "virgo")!,
                                     polarName: "თევზები",
-                                    polarImage: UIImage(named: "Pisces")!)
+                                    polarImage: UIImage(named: "pisces")!)
         case "სასწორი":
             zodiacSign = ZodiacSign(name: "სასწორი",
                                     description: "აღწერა",
@@ -113,13 +113,13 @@ class DescriptionPageVC: UIViewController {
                                     description: "აღწერა",
                                     image: UIImage(named: "scorpio")!,
                                     polarName: "კურო",
-                                    polarImage: UIImage(named: "Taurus")!)
+                                    polarImage: UIImage(named: "taurus")!)
         case "მშვილდოსანი":
             zodiacSign = ZodiacSign(name: "მარიამ სრესელი",
                                     description: "აღწერა",
                                     image: UIImage(named: "sagittarius")!,
                                     polarName: "ტყუპები",
-                                    polarImage: UIImage(named: "Gemini")!)
+                                    polarImage: UIImage(named: "gemini")!)
         default:
             
             zodiacSign = ZodiacSign(name: "Default",

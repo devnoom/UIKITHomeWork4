@@ -53,6 +53,7 @@ class MainPageVC: UIViewController {
         mainPageStack.distribution = .fillEqually
         mainPageStack.alignment = .leading
         mainPageStack.spacing = 10
+        //mainPageStack.backgroundColor = .cyan
         
         mainPageStack.addArrangedSubview(mainLabel)
         mainPageStack.addArrangedSubview(mainLabelsText)
@@ -77,7 +78,7 @@ class MainPageVC: UIViewController {
         ])
         
         NSLayoutConstraint.activate([
-            mainLabel.topAnchor.constraint(equalTo: mainPageStack.topAnchor, constant: 0),
+            mainLabel.topAnchor.constraint(equalTo: mainPageStack.topAnchor, constant: 10),
             mainLabel.leadingAnchor.constraint(equalTo: mainPageStack.leadingAnchor, constant: 0),
             mainLabel.trailingAnchor.constraint(equalTo: mainPageStack.trailingAnchor, constant: 0),
             
